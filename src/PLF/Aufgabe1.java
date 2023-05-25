@@ -9,7 +9,6 @@ public class Aufgabe1 {
     static void wasserbedarf(double laenge, double breite, double anzahlGies) {
 
         double flaeche = laenge * breite;
-        double gießMenge = anzahlGies * 2;
 
         double berechnung = flaeche * (anzahlGies * 2);
         System.out.println("Wasserbedarf: " + berechnung);

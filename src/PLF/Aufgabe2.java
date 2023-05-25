@@ -6,6 +6,7 @@ import java.util.Random;
 public class Aufgabe2 {
     public static void main(String[] args) {
         generateData(8,12);
+        generateData(12,30);
     }
 
     static void generateData(int n, int max) {
