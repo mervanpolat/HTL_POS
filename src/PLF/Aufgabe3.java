@@ -4,14 +4,14 @@ import java.util.Random;
 
 public class Aufgabe3 {
     public static void main(String[] args) {
-        generateData();
+        generateData(8,20);
     }
 
-    static void generateData(){
+    static void generateData(int n, int max){
         Random rand = new Random();
         ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 8; i++) {
-            list.add(rand.nextInt(0, 20));
+        for (int i = 0; i < n; i++) {
+            list.add(rand.nextInt(0,max));
         }
         System.out.println("The generated data: " + list);
         testNumbers(list);
