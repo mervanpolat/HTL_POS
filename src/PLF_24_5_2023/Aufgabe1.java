@@ -1,4 +1,4 @@
-package PLF;
+package PLF_24_5_2023;
 
 public class Aufgabe1 {
     public static void main(String[] args) {
