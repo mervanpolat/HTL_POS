@@ -25,13 +25,13 @@ public class Aufgabe3 {
         int unevenCountLeft = 0;
         int unevenCountRight = 0;
         for (int i = 0; i < list.size()/2; i++) {
-            if (list.get(i) %2 != 0) {
+            if (isOdd(list.get(i))) {
                 unevenCountLeft++;
             }
         }
 
         for (int i = list.size()/2; i < list.size(); i++) {
-            if (list.get(i) %2 != 0) {
+            if (isOdd(list.get(i))) {
                 unevenCountRight++;
             }
         }
